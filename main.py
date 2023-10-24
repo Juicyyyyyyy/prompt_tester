@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     # Write the results to output.txt
     with open('output.txt', 'w') as output_file:
-        for result in results:
-            output_file.write(result + '\n')
+        for idx, result in enumerate(results, 1):
+            output_file.write(f"Result {idx}:\n{result}\n\n")
 
     print("All prompts processed, and results written to output.txt.")
