@@ -6,12 +6,9 @@
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -49,7 +46,7 @@ To run this project, you'll need the following prerequisites:
    pip install -r requirements.txt
    ```
 
-Usage
+### Usage
 To use Prompt Tester, follow these steps:
 
 1. Create a .env file in the project directory.
